@@ -1,4 +1,4 @@
-package com.login.constants;
+package org.chavera.swm.login.constants;
 
 public class Actions {
 	public static final String ADMIN_ROLE = "administrator";

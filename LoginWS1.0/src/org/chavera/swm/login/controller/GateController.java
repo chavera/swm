@@ -1,15 +1,14 @@
-package com.login.controller;
+package org.chavera.swm.login.controller;
 
+import org.chavera.swm.login.beans.User;
+import org.chavera.swm.login.constants.ErrMsgs;
+import org.chavera.swm.login.services.ChangePasswordService;
+import org.chavera.swm.login.services.CommonServices;
+import org.chavera.swm.login.services.LoginService;
+import org.chavera.swm.login.services.LogoutService;
+import org.chavera.swm.login.services.UserService;
 import org.json.JSONException;
 import org.json.JSONObject;
-
-import com.login.beans.User;
-import com.login.constants.ErrMsgs;
-import com.login.services.ChangePasswordService;
-import com.login.services.CommonServices;
-import com.login.services.LoginService;
-import com.login.services.LogoutService;
-import com.login.services.UserService;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.DefaultValue;

@@ -1,4 +1,4 @@
-package com.login.utils;
+package org.chavera.swm.login.utils;
 
 import java.io.InputStream;
 import java.sql.Connection;
@@ -9,7 +9,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Properties;
 
-import com.login.beans.DbBean;
+import org.chavera.swm.login.beans.DbBean;
 
 public class ConnMgr {
 	private static DbBean db;

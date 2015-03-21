@@ -1,8 +1,8 @@
-package com.login.services;
+package org.chavera.swm.login.services;
 
-import com.login.beans.User;
-import com.login.constants.Actions;
-import com.login.utils.Commons;
+import org.chavera.swm.login.beans.User;
+import org.chavera.swm.login.constants.Actions;
+import org.chavera.swm.login.utils.Commons;
 
 public class LogoutService {
 	public boolean postLogoutAction(User user) throws Exception{

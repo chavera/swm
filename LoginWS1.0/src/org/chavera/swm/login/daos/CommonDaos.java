@@ -1,14 +1,14 @@
-package com.login.daos;
+package org.chavera.swm.login.daos;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
-import com.login.beans.User;
-import com.login.constants.Actions;
-import com.login.constants.Queries;
-import com.login.utils.Commons;
-import com.login.utils.ConnMgr;
+import org.chavera.swm.login.beans.User;
+import org.chavera.swm.login.constants.Actions;
+import org.chavera.swm.login.constants.Queries;
+import org.chavera.swm.login.utils.Commons;
+import org.chavera.swm.login.utils.ConnMgr;
 
 public class CommonDaos {
 	public static String getStatusOfCookie(User user) throws Exception{

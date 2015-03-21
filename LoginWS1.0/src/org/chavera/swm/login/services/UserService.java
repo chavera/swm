@@ -1,14 +1,13 @@
-package com.login.services;
+package org.chavera.swm.login.services;
 
 import java.util.ArrayList;
 
+import org.chavera.swm.login.beans.User;
+import org.chavera.swm.login.constants.Actions;
+import org.chavera.swm.login.daos.UserDao;
+import org.chavera.swm.login.utils.Commons;
 import org.json.JSONArray;
 import org.json.JSONObject;
-
-import com.login.beans.User;
-import com.login.constants.Actions;
-import com.login.daos.UserDao;
-import com.login.utils.Commons;
 
 public class UserService {
 	public Boolean create(User adminUser,User newUser) throws Exception{

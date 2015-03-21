@@ -1,10 +1,10 @@
-package com.login.services;
+package org.chavera.swm.login.services;
 
-import com.login.beans.User;
-import com.login.constants.Actions;
-import com.login.daos.CommonDaos;
-import com.login.daos.UserDao;
-import com.login.utils.Commons;
+import org.chavera.swm.login.beans.User;
+import org.chavera.swm.login.constants.Actions;
+import org.chavera.swm.login.daos.CommonDaos;
+import org.chavera.swm.login.daos.UserDao;
+import org.chavera.swm.login.utils.Commons;
 
 public class CommonServices {
 	public static boolean isValid(User user) throws Exception{

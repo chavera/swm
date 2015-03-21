@@ -1,4 +1,4 @@
-package com.login.beans;
+package org.chavera.swm.login.beans;
 
 public class User {
 	private String username;

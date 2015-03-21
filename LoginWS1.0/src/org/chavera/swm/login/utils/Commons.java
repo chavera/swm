@@ -1,4 +1,4 @@
-package com.login.utils;
+package org.chavera.swm.login.utils;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

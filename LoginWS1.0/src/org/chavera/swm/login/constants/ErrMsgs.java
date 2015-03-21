@@ -1,4 +1,4 @@
-package com.login.constants;
+package org.chavera.swm.login.constants;
 
 public class ErrMsgs {
 	public static final int EC_101 = 101;
